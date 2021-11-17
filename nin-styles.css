@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  background: gray;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+#title { 
+  font-size: 4vw;
+  text-shadow: 
+    -2px 0px greenyellow, 
+    .5px 0px yellow, 
+    -5px 0px magenta, 
+    5px 0px cyan;
+}
+
+#img-div { 
+  background: darkred; 
+  padding: 5% 5% 0 5%;
+}
+
+#image { 
+  display: block;
+  width: 90%; 
+  max-width: 800px;
+  margin: auto;
+}
+
+#img-caption {
+  color: white;
+  padding: 2.5%;
+}
+
+article {
+  width: 80%;
+  color: black;
+  font-size: 1.5vw;
+  margin: 5% auto 10%;
+}
+
+li {
+  text-align: left;
+  list-style-type: square;
+  margin-bottom: 1vw;
+}
+
+a {
+  color: darkred;
+}
