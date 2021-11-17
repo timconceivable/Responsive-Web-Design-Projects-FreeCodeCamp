@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="survey-styles.css">
+</head>
+<body>
+    <main>
+
+        <header>
+            <h1 id="title">Survey Form!</h1>
+            <p id="description"> What the hell is this survey for anyway? </p>
+        </header>
+
+        <section>
+            <form action="" id="survey-form">
+                <div class="question">
+                    <label for="name" id="name-label">
+                        What's your name, friend?
+                    </label>
+                    <input type="text" id="name" 
+                        placeholder="  enter your name" required>
+                    </input>
+                </div>
+                
+                <div class="question">
+                    <label for="email" id="email-label">
+                        Care to share your email with us? 
+                        We swear we won't send you spam. 
+                        Unless you want spam. Do you want spam?  
+                        Because we do have spam if you want some.
+                    </label>
+                    <input type="email" id="email" 
+                        placeholder="  give us your email? pretty please?" required>
+                    </input>
+                    <div class="selections">
+                        <label>
+                            <input type="checkbox" class="checkmark" 
+                            name="spam" id="spam" value="true" checked>
+                            </input>yes, send me spam.
+                        </label>
+                    </div>
+                </div>
+            
+                <div class="question">
+                    <label for="number" id="number-label">
+                        How many poops do you have per day on average?
+                    </label>
+                    <input type="number" id="number" 
+                        placeholder="  enter a number (between 0 and 1 million)" 
+                        min="0" max="1000000" required>
+                    </input>
+                </div>
+            
+                
+                <div class="question">
+                    <label for="dropdown" id="dropdown-label">
+                        Which of these do you hate most?
+                    </label>
+                    <select name="dropdown" id="dropdown" form="survey-form" required>
+                        <option value="IE">Internet Explorer</option>
+                        <option value="Edge">Microsoft Edge</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Firefox">Firefox</option>
+                    </select>
+                </div>
+            
+                <div class="question">
+                    What will you have? (you only get one)
+                    <div class="selections">
+                        <label><input type="radio" name="lunch" 
+                            id="cereal" value="cereal" form="survey-form">
+                            a bowl of cereal</label>
+                        <label><input type="radio" name="lunch" 
+                            id="candy" value="candy" form="survey-form">
+                            candy</label>
+                        <label><input type="radio" name="lunch" 
+                            id="noodles" value="noodles" form="survey-form">
+                            noodles</label>
+                        <label><input type="radio" name="lunch" 
+                            id="grape" value="grape" form="survey-form">
+                            a grape</label>
+                        <label><input type="radio" name="lunch" 
+                            id="sushi" value="sushi" form="survey-form">
+                            sushi</label>
+                        <label><input type="radio" name="lunch" 
+                            id="pizza" value="pizza" form="survey-form">
+                            pizza</label>
+                        <label><input type="radio" name="lunch" 
+                            id="sprouts" value="sprouts" form="survey-form">
+                            brussel sprouts</label>
+                        <label><input type="radio" name="lunch" 
+                            id="tea" value="tea" form="survey-form">
+                            tea</label>
+                    </div>
+                </div>
+            
+                <div class="question">
+                    How about some swag?  
+                    We can't guarantee you will get any swag, 
+                    but check as many as you like.
+                    <div class="selections">
+                        <label><input type="checkbox" class="checkmark" name="swag" 
+                            id="chotchkey" value="chotchkey"></input>
+                            chotchkey
+                        </label>
+                        <label><input type="checkbox" class="checkmark" name="swag" 
+                            id="bobblehead" value="bobblehead"></input>
+                            bobblehead
+                        </label>
+                        <label><input type="checkbox" class="checkmark" name="swag" 
+                            id="squishie" value="squishie"></input>
+                            squishie ball
+                        </label>
+                        <label><input type="checkbox" class="checkmark" name="swag" 
+                            id="cube" value="cube"></input>
+                            infinity cube
+                        </label>
+                        <label><input type="checkbox" class="checkmark" name="swag" 
+                            id="spinner" value="spinner"></input>
+                            fidget spinner
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <label for="comments" id="comments-label">
+                        You got something more to say?</label>
+                    <textarea id="comments" form="none" 
+                        placeholder="rant all you want! we're not going to read this." 
+                        rows="4" cols="50">
+                    </textarea>
+                </div>
+            
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+</body>

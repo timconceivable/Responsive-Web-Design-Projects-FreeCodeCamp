@@ -1,0 +1,154 @@
+:root {
+  --cerulean: hsl(200, 50%, 30%);
+  --orange: hsl(30,80%,45%);
+  --shadow: 0px 5px 10px var(--cerulean);
+  --green: hsl(160,80%,46%);
+}
+
+body{
+  background: steelblue;
+}
+
+main {
+  color: white;
+  font-family: 'Impact', 'Poopins', sans-serif;
+  font-size: 1.5vw;
+  letter-spacing: .02vw;
+  line-height: 1.75vw;
+  width: 50%;
+  text-align: center;
+  border-radius: 2%;
+  padding: 0;
+  margin: 2% auto;
+}
+
+#title {
+  font-size: 4vw;
+  font-weight: 900;
+  text-shadow: var(--shadow);
+  margin-bottom: 0%;
+}
+
+#description {
+  font-style: italic;
+  color: orange;
+  text-shadow: var(--shadow);
+}
+
+form {
+  background: var(--orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  width: 80%;
+  border-top: .3vw solid orange;
+  border-radius: 3vw;
+  box-shadow: var(--shadow);
+  padding: 7% 10% 5% 10%;
+  margin: 0;
+}
+
+.question {
+  background: royalblue;
+  box-shadow: var(--shadow);
+  border-top: .3vw solid dodgerblue;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+label {
+  width: 100%;
+  padding: 0;
+  margin: 0 5% 1% 0;
+}
+
+::selection {
+  background: orange;
+}
+
+select:not(:checked) {
+  color: gray;
+}
+
+option { 
+  color: darkgray;
+}
+
+input, select {
+  height: 2vw;
+}
+
+input, textarea, select {
+  font-family: sans-serif;
+  font-size: 1vw;
+  line-height: 1.5vw;
+  color: dimgray;
+  background: gainsboro;
+  width: auto;
+  background-clip: padding-box;
+  border: 0px;
+  border-radius: .75em;
+  padding: 0 2%;
+  margin-top: .5vw;
+}
+
+textarea {
+  height: 8vw;
+  padding: 2%;
+  resize: none;
+}
+
+.selections {
+  font-size: 1.25vw;
+  color: gainsboro;
+  display: grid;
+  align-items: left;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: .5vw;
+  margin-top: .5vw;
+}
+
+input:active, input:focus, 
+textarea:active, textarea:focus {
+  color: var(--green);
+  accent-color: var(--green);
+}
+
+input:hover, textarea:hover { 
+  color: var(--orange);
+  accent-color: var(--orange);
+}
+
+input[type=checkbox] {
+  accent-color: var(--green);
+  height: 1.25vw;
+  width: 1.25vw;
+  margin-right: .75vw;
+  margin-top: 0;
+}
+
+input[type=radio] {
+  accent-color: var(--green);
+  position: relative;
+  top: .4vw;
+  right: .4vw;
+  margin-top: -.5vw;
+}
+
+#submit {
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  background: var(--green);
+  border: 0;
+  border-radius: 2vw;
+  box-shadow: var(--shadow);
+  width: 40%;
+  padding: 3%;
+  margin: 3% auto;
+}
