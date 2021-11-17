@@ -4,8 +4,8 @@ These projects illustrate applied skills, principles, and concepts learned from 
 
 
 ## There are 5 projects for the Responsive Web Design Certificate:
- 1. Tribute Page
- 2. Survey Form
- 3. Product Landing Page
- 4. Technical Documentation Page
- 5. Personal Portfolio Webpage
+ 1. **Tribute Page**
+ 2. **Survey Form**
+ 3. **Product Landing Page**
+ 4. **Technical Documentation Page**
+ 5. **Personal Portfolio Webpage**
