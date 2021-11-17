@@ -1,6 +1,6 @@
 # **Responsive Web Design Projects**
 
-These projects are meant to test your knowledge by applying skills, principles, and concepts learned from the Responsive Web Design curriculum on [FreeCodeCamp.org](https://www.freecodecamp.org/learn/responsive-web-design/).  Concepts covered are: **HTML, CSS, CSS Flexbox, CSS Grid, Visual Design, Accessibility**, and more.
+These projects illustrate applied skills, principles, and concepts learned from the Responsive Web Design curriculum on [FreeCodeCamp.org](https://www.freecodecamp.org/learn/responsive-web-design/).  Concepts covered are: **HTML, CSS, CSS Flexbox, CSS Grid, Visual Design, Accessibility**, and more.
 
 
 ## There are 5 projects for the Responsive Web Design Certificate:
