@@ -11,4 +11,4 @@ These projects illustrate applied skills, principles, and concepts learned from 
  5. **Personal Portfolio Webpage**
 
 - - - 
-[![](https://64.media.tumblr.com/8539080faa2bfa7f936e4e33704ab3a9/87cde49441d2a7c6-5a/s540x810/b7069516fe36f325b8b424ceae67c9f216086b36.png)](https://www.freecodecamp.org/fcca6fdb734-bb50-40e6-ab0b-951c96203d68 "TimConceivable's profile on FreeCodeCamp.org"){:width="200px" :target="_blank"}
+[![](https://64.media.tumblr.com/8539080faa2bfa7f936e4e33704ab3a9/87cde49441d2a7c6-5a/s540x810/b7069516fe36f325b8b424ceae67c9f216086b36.png)](https://www.freecodecamp.org/fcca6fdb734-bb50-40e6-ab0b-951c96203d68 "TimConceivable's profile on FreeCodeCamp.org"){ width=100px }{ :target="_blank" }
